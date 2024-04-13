@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:4200",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\wwwJb\\source\\repos\\basicForum\\basicForum.Server\\..\\basicForum.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

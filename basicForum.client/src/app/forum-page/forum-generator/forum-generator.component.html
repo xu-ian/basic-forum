@@ -1,0 +1,8 @@
+<form class="form" [formGroup]="ForumGenerateForm" (ngSubmit)="createForum($event)">
+  <p>Create a new forum</p>
+  <input class="input-field" id="Forum-Input" formControlName="name"
+         type="text" placeholder="Enter the name of the forum here"/>
+  <input class="input-field" id="Description-Input" formControlName="description"
+         type="text" placeholder="Enter your forum description here" />
+  <button class="submit-button" type="submit" [disabled]="!ForumGenerateForm.valid">Submit</button>
+</form>

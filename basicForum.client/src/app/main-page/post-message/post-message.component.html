@@ -1,0 +1,6 @@
+<form id="message_input_form" class="form" [formGroup]="PostMessageForm" (ngSubmit)="postMessage($event)">
+  <input class="input-field" id="Message-Input" formControlName="message"
+         type="text" placeholder="Enter your message here" />
+  <button *ngIf="!PostMessageForm.valid" class="disabled-submit-button" id="Disabled-Submit-Post" disabled type="submit">Invalid Input</button>
+  <button *ngIf="PostMessageForm.valid" class="submit-button" id="Submit-Post" type="submit">Post Message</button>
+</form>

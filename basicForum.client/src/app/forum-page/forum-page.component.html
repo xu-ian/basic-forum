@@ -1,0 +1,7 @@
+<app-forum-generator *ngIf="signedIn()"></app-forum-generator>
+<div class="form" *ngIf="forums.length != 0">
+  <button *ngFor="let forum of forums" type="button" class="forum-unit" (click)="navigateForum(forum.name)">
+    <div class="forum-name">{{forum.name}}</div>
+    <div class="forum-description">{{forum.description}}</div>
+  </button>
+</div>

@@ -1,0 +1,54 @@
+.form {
+  width: 100%;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 5px auto 5px auto;
+}
+
+.input-field {
+  width: 95%;
+  margin: 15px auto 15px auto;
+  font-size: large;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: block;
+  padding: 7px;
+  background-color: white;
+  transition: background-color 0.5s;
+}
+
+  .input-field:hover {
+    background-color: rgb(242, 242, 242);
+  }
+
+.disabled-submit-button {
+  margin: 5px auto 15px auto;
+  font-size: larger;
+  background-color: white;
+  border-radius: 3px;
+  color: red;
+  display: block;
+  padding: 8px;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.disabled-submit-button:hover {
+  color: maroon;
+}
+
+.submit-button {
+  margin: 5px auto 15px auto;
+  font-size: larger;
+  background-color: white;
+  border-radius: 3px;
+  color: blue;
+  display: block;
+  padding: 8px;
+  transition: color 0.5s, background-color 0.5s;
+}
+
+.submit-button:hover {
+  color: white;
+  background-color: blue;
+}

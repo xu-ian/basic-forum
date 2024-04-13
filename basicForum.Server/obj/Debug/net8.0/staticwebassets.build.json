@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "TwyEARPxlsB5ClSyniw67/O8rP+WVjXg/Qm5sWRWCtM=",
+  "Source": "basicForum.Server",
+  "BasePath": "_content/basicForum.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\wwwJb\\source\\repos\\basicForum\\basicForum.client\\basicForum.client.esproj",
+      "Version": 2,
+      "Source": "basicForum.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

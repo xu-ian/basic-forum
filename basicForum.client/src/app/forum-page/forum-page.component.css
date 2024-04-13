@@ -1,0 +1,25 @@
+.forum-unit {
+    width: 100%;
+    background-color: rgb(229, 210, 255);
+    color: black;
+    transition: background-color 0.5s;
+    border-radius: 5px;
+    margin: 5px auto 5px auto;
+}
+
+.forum-unit:hover{
+    background-color: rgb(213, 184, 253);
+}
+
+.forum-name {
+    font-weight: bold;
+    font-size: xx-large;
+    color: black;
+    text-align: left;
+}
+
+.forum-description {
+  font-size: large;
+  color: black;
+  text-align: left;
+}

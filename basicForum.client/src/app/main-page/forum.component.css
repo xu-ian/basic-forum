@@ -1,0 +1,99 @@
+:host {
+    max-width: 1280px;
+    padding: 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin:5px auto 5px auto;
+}
+
+.large-font {
+  font-size: 40px;
+}
+
+.Message-unit {
+  margin: 10px;
+  background-color: white;
+}
+
+.Message-username {
+  font-size: x-large;
+  font-family: "Merriweather", "Noto Sans JP";
+  text-align: left;
+  font-weight: bold;
+  margin: 2px;
+}
+
+.Message-contents {
+  font-size: large;
+  text-align: left;
+  margin: 2px;
+}
+
+.Message-actionbar {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.vote-unit {
+  border-radius: 3px;
+  display:flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+  margin: 0px 8px 0px 0px;
+}
+
+.upvote {
+  background-image: url("https://127.0.0.1:7170/Images/upvote");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.downvote {
+  background-image: url("https://127.0.0.1:7170/Images/downvote");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+
+.delete-button {
+  background-image: url("https://127.0.0.1:7170/Images/delete");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: red;
+  background-color: white;
+  border-radius: 3px;
+  transition: color 0.5s, background-color 0.5s;
+  width: 40px;
+  height: 40px;
+}
+
+.delete-button:hover {
+    color: white;
+    background-color: red;
+}

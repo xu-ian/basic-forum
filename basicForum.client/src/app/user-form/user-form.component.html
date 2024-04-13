@@ -1,0 +1,11 @@
+<form id="user_form" class="form" [formGroup]="UserForm" (ngSubmit)="sendCredentials($event)">
+  <div *ngIf="error">{{errorMessage}}</div>
+  <input class="input-field" id="Username-Input" formControlName="username"
+         type="text" placeholder="Enter your name here" />
+  <input class="input-field" id="Password-Input" formControlName="password"
+         type="password" placeholder="Enter your password here" />
+  <button *ngIf="!UserForm.valid" class="disabled-submit-button" id="Disabled-Submit-Post" disabled type="submit">Invalid Input</button>
+  <button *ngIf="UserForm.valid && type=='login'" class="submit-button" id="Submit-Post" type="submit">Login</button>
+  <button *ngIf="UserForm.valid && type=='signup'" class="submit-button" id="Submit-Post" type="submit">Sign Up</button>
+</form>
+

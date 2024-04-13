@@ -1,0 +1,11 @@
+<div class="navbar">
+  <div class="main-page">
+    <button class="select-button" type="button" (click)="home()">Home Page</button>
+  </div>
+  <div class="user-controls">
+    <button *ngIf="!signedIn" class="select-button" type="button" (click)="signup()">Sign Up</button>
+    <button *ngIf="!signedIn" class="select-button" type="button" (click)="login()">Log In</button>
+    <button *ngIf="signedIn" class="select-button" type="button" (click)="logout()">Log out</button>
+  </div>
+</div>
+<router-outlet></router-outlet>
